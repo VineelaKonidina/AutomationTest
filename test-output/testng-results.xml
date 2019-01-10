@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="87010" started-at="2019-01-10T07:54:19Z" finished-at="2019-01-10T07:55:46Z">
+    <groups>
+    </groups>
+    <test name="FREE CRM Application Test" duration-ms="87010" started-at="2019-01-10T07:54:19Z" finished-at="2019-01-10T07:55:46Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="setup" is-config="true" duration-ms="16486" started-at="2019-01-10T07:54:50Z" finished-at="2019-01-10T07:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="verifyContactsLinkTest" duration-ms="1452" started-at="2019-01-10T07:55:07Z" finished-at="2019-01-10T07:55:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="919" started-at="2019-01-10T07:55:08Z" finished-at="2019-01-10T07:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="setup" is-config="true" duration-ms="16806" started-at="2019-01-10T07:55:09Z" finished-at="2019-01-10T07:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="verifyHomePageTitleTest" duration-ms="17" started-at="2019-01-10T07:55:26Z" finished-at="2019-01-10T07:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@25bbe1b6]" name="tearDown" is-config="true" duration-ms="889" started-at="2019-01-10T07:55:26Z" finished-at="2019-01-10T07:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5702b3b1]" name="setup" is-config="true" duration-ms="18325" started-at="2019-01-10T07:55:27Z" finished-at="2019-01-10T07:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5702b3b1]" name="verifyContactsPageLabel" duration-ms="33" started-at="2019-01-10T07:55:45Z" finished-at="2019-01-10T07:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@5702b3b1]" name="tearDown" is-config="true" duration-ms="897" started-at="2019-01-10T07:55:45Z" finished-at="2019-01-10T07:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="setup" is-config="true" duration-ms="10903" started-at="2019-01-10T07:54:19Z" finished-at="2019-01-10T07:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="loginPageTitleTest" duration-ms="43" started-at="2019-01-10T07:54:30Z" finished-at="2019-01-10T07:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="tearDown" is-config="true" duration-ms="800" started-at="2019-01-10T07:54:30Z" finished-at="2019-01-10T07:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="setup" is-config="true" duration-ms="9297" started-at="2019-01-10T07:54:31Z" finished-at="2019-01-10T07:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="loginTest" duration-ms="9192" started-at="2019-01-10T07:54:40Z" finished-at="2019-01-10T07:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ff5b51f]" name="tearDown" is-config="true" duration-ms="911" started-at="2019-01-10T07:54:49Z" finished-at="2019-01-10T07:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- FREE CRM Application Test -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
