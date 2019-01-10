@@ -51,28 +51,28 @@ public class ContactsPageTest extends TestBase {
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), "Contacts Label is Missing on the Page");
 	}
 	
-//	@Test()
-//	public void selectContactsTest() {
-//		contactsPage.selectContactsByName("Test Test");
-//	}
+	@Test()
+	public void selectContactsTest() {
+		contactsPage.selectContactsByName("Test Test");
+	}
 	
-//	@Test()
-//	public void selectMultipleContactsTest() {
-//		contactsPage.selectContactsByName("autom test");
-//		contactsPage.selectContactsByName("Test Test");
-//	}
+	@Test()
+	public void selectMultipleContactsTest() {
+		contactsPage.selectContactsByName("autom test");
+		contactsPage.selectContactsByName("Test Test");
+	}
 	
 	@DataProvider
 	public Object[][] getCRMTestData() {
 		Object data[][] =  TestUtil.getTestData(sheetName);
 		return data;
 	}
-//	@Test(dataProvider="getCRMTestData")
-//	public void validateCreateNewContact(String title,String firstName,String lastName,String company ) {
-//		homePage.clickOnNewContactLink();
-//		//contactsPage.createNewContact("Mr.", "Peter", "Heins", "Animation");
-//		contactsPage.createNewContact(title, firstName, lastName, company);
-//	}
+	@Test(dataProvider="getCRMTestData")
+	public void validateCreateNewContact(String title,String firstName,String lastName,String company ) {
+		homePage.clickOnNewContactLink();
+		//contactsPage.createNewContact("Mr.", "Peter", "Heins", "Animation");
+		contactsPage.createNewContact(title, firstName, lastName, company);
+	}
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

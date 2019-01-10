@@ -34,11 +34,11 @@ public class LoginPageTest extends TestBase {
 		Assert.assertEquals(title, "#1 Free CRM software in the cloud for sales and service");
 	}
 	
-//	@Test()
-//	public void crmLogoImageTest() {
-//		boolean flag = loginPage.validateCRMImage();
-//		Assert.assertTrue(flag);
-//	}
+	@Test()
+	public void crmLogoImageTest() {
+		boolean flag = loginPage.validateCRMImage();
+		Assert.assertTrue(flag);
+	}
 	
 	@Test()
 	public void loginTest() throws InterruptedException {

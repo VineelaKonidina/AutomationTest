@@ -5,8 +5,6 @@ package com.crm.qa.testcases;
  * 
  */
 
-
-
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -49,11 +47,11 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(homePageTitle, "CRMPRO","Home Page Title Not Matched");
 	}
 	
-//	@Test()
-//	public void verifyUserNameTest(){
-//		testUtil.switchToFrame();
-//		Assert.assertTrue(homePage.verifyCorrectUserName());
-//	}
+	@Test()
+	public void verifyUserNameTest(){
+		testUtil.switchToFrame();
+		Assert.assertTrue(homePage.verifyCorrectUserName());
+	}
 	
 	@Test()
 	public void verifyContactsLinkTest() {
